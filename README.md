@@ -3,11 +3,10 @@ This is a base repository for all my JPA related work
 
 ### How to run the App
 #### MySQL docker container
-* Start MySQL docker container
+* Start MySQL docker container<br>
     `docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6`
     <br>where mysql-standalone is my container name, password is my password for root used of mysql <br>
     and mysql:5.6 is image name : tag.
-<br>
 * Once container starts, please verify using following commands <br>
 `docker container ls` <br>
 `docker logs mysql-standalone` <br>
